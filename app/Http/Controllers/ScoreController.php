@@ -7,6 +7,13 @@ use App\Models\Score;
 
 class ScoreController extends Controller
 {
+
+    public function getAll()
+    {
+        $scores = Score::orderBy('score', 'DESC')->get();
+        return response()->json(compact('scores'));
+    }
+
     public function index()
     {
         //
@@ -33,7 +40,6 @@ class ScoreController extends Controller
             $score->save();
         }
     }
-
     public function show($id)
     {
         //

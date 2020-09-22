@@ -1,4 +1,4 @@
-.present
+#home .present
 {
     height: 100vh;
     display: flex;
@@ -6,26 +6,26 @@
     flex-direction: column;
 }
 
-.present > div
+#home .present > div
 {
     margin-left: 85px;
 }
 
-.present h1
+#home .present h1
 {
     font-family: Arial, sans-serif;
     font-size: 6rem;
     animation: translate-left-big 1s;
 }
 
-.present p
+#home .present p
 {
     font-family: Arial, sans-serif;
     font-size: 1.7rem;
     animation: translate-left-big 1s .25s, opacity .25s;
 }
 
-.present .btn-download
+#home .present .btn-download
 {
     font-family: Arial, sans-serif;
     font-size: 1.2rem;
@@ -43,8 +43,7 @@
     animation: translate-left-big 1s .5s, opacity .5s;
 }
 
-
-.present .btn-download #android
+#home .present .btn-download #android
 {
     display: inline-block;
     line-height: 50px;
@@ -55,7 +54,7 @@
     margin-right: 25px;
 }
 
-.images
+#home .images
 {
     display: flex;
     justify-content: center;
@@ -63,9 +62,73 @@
 }
 
 
-.images #landing-img-home
+#home .images #landing-img-home
 {
     width: 75%;
     animation: translate-right-big 1s .25s, opacity .25s, bounce 3s 1.25s infinite ease-in-out;
+}
+
+#leaderboard .present
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#leaderboard .present > div
+{
+    margin-left: 85px;
+}
+
+#leaderboard .present h2
+{
+    font-family: Arial, sans-serif;
+    font-size: 6rem;
+    animation: translate-left-big 1s;
+}
+
+#leaderboard .present p
+{
+    font-family: Arial, sans-serif;
+    font-size: 1.7rem;
+    animation: translate-left-big 1s .25s, opacity .25s;
+}
+
+#leaderboard .present .btn-download
+{
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    border: 2px solid #0E0E0E;
+    width: 250px;
+    height: 50px;
+    line-height: 35px;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    border-radius: 35px;
+    color: #0E0E0E;
+    animation: translate-left-big 1s .5s, opacity .5s;
+}
+
+#leaderboard .present .btn-download #android
+{
+    display: inline-block;
+    line-height: 50px;
+    height: 25px;
+    vertical-align: middle;
+    float: right;
+    margin-top: 5px;
+    margin-right: 25px;
+}
+
+#leaderboard .leaderboard
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
