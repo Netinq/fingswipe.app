@@ -1,7 +1,7 @@
 # REST API
 ## Documention 
 
-[api/scores/getAll]
+### URL [api/scores/getAll]
 ```
 Return
 - Scores
