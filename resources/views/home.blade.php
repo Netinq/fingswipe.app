@@ -7,7 +7,7 @@
         <p>Fingswipe est un jeu instructif qui permet jour à jour de développer les reflexe de votre cerveau ainsi que votre concentration.</p>
         <a href="#">
             <div class="btn-download">
-                Télécharger
+                <img src="{{asset('images/svg/android.svg')}}" id="android" alt="Android logo">Télécharger
             </div>
         </a>
     </div>
