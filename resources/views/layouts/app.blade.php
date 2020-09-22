@@ -60,7 +60,7 @@
         <link rel="stylesheet" type="text/css" href="{{ asset('css/layouts/top.css') }}"> --}}
 
         <!-- STATIC Scripts -->
-        <script src="{{asset('js/app.js')}}"></script>
+        {{-- <script src="{{asset('js/app.js')}}"></script> --}}
 
         @hasSection('noMaster') @else
             <link rel="stylesheet" type="text/css" href="{{ asset('css/master.css') }}">
