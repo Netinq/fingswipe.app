@@ -3,6 +3,7 @@
 
 ### URL [api/scores/getAll]
 ```
+Method : GET
 Return Scores
 Exemple : 
 {
@@ -16,4 +17,13 @@ Exemple :
         }
     ]
 }
+```
+
+### URL [api/scores/]
+```
+Method : POST
+Store new score
+Request body :
+- [username] string
+- [score] integer
 ```
