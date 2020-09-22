@@ -1,0 +1,28 @@
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 75px;
+    width: 100vw;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px #eeeeee;
+    margin: 0 !important;
+    padding: 0;
+}
+
+header #logo
+{
+    height: 50px;
+    margin-left: 50px;
+    /* margin-top: 12.5px; */
+    display: inline-block;
+}
+
+header #app-title
+{
+    margin-left: 25px;
+    display: inline-block;
+    font-size: 1.2rem;
+    line-height: 75px;
+}

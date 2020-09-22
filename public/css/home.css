@@ -1,0 +1,52 @@
+.present
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.present > div
+{
+    margin-left: 85px;
+}
+
+.present h1
+{
+    font-family: Arial, sans-serif;
+    font-size: 6rem;
+}
+
+.present p
+{
+    font-family: Arial, sans-serif;
+    font-size: 1.7rem;
+}
+
+.present .btn-download
+{
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    border: 2px solid #0E0E0E;
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 35px;
+    color: #0E0E0E;
+}
+
+.images
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.images #landing-img-home
+{
+    width: 75%;
+    animation: bounce 3s infinite ease-in-out;
+}
+
