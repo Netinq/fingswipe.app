@@ -156,6 +156,12 @@
 
 @media (max-width: 1200px)
 {
+    #rules .images #landing-img-rules
+    {
+        margin-top: 25%;
+        height: 50%;
+        animation: translate-left-big 1s .25s, opacity .25s, bounce 3s 1.25s infinite ease-in-out;
+    }
     #leaderboard .present h2
     {
         font-size: 3rem;
@@ -164,6 +170,15 @@
     #leaderboard .present p
     {
         font-size: 1.5rem;
+    }
+}
+@media (max-width: 800px)
+{
+
+    #rules .present > div
+    {
+        margin-left: 40px;
+        margin-right: 25px;
     }
 }
 
