@@ -318,3 +318,28 @@
         font-size: .8rem;
     }
 }
+
+
+@media (max-width: 600px)
+{
+
+    #leaderboard .present h1
+    {
+        font-size: 3rem;
+    }
+
+    #leaderboard .present p
+    {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 600px)
+{
+
+    #leaderboard .present > div
+    {
+        margin-left: 40px;
+        margin-right: 25px;
+    }
+}
