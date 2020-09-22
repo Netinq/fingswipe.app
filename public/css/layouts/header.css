@@ -19,6 +19,14 @@ header #logo
     /* margin-top: 12.5px; */
     display: inline-block;
 }
+@media (max-width: 600px)
+{
+    header #logo
+    {
+        height: 50px;
+        margin-left: 25px;
+    }
+}
 
 header #app-title
 {

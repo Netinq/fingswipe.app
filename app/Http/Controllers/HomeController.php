@@ -9,7 +9,7 @@ class HomeController extends Controller
 {
     public function home()
     {
-        $scores = Score::orderBy('score', 'DESC')->get();
+        $scores = Score::orderBy('score', 'DESC')->take(7)->get();
         return view('home', compact('scores'));
     }
 }
