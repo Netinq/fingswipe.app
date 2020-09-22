@@ -118,6 +118,42 @@
     animation: translate-left-big 1s .25s, opacity .25s;
 }
 
+#rules .present h2
+{
+    font-family: Arial, sans-serif;
+    font-size: 5rem;
+    animation: translate-right-big 1s;
+}
+
+#rules .present p
+{
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    animation: translate-right-big 1s .25s, opacity .25s;
+}
+#rules .present > div
+{
+    margin-right: 85px;
+}
+#rules .images
+{
+    padding-left: 85px;
+}
+#rules .images #landing-img-rules
+{
+    margin-top: 12.5%;
+    height: 75%;
+    animation: translate-left-big 1s .25s, opacity .25s, bounce 3s 1.25s infinite ease-in-out;
+}
+
+#rules .present
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 @media (max-width: 1200px)
 {
     #leaderboard .present h2
@@ -191,7 +227,7 @@
     #leaderboard .present
     {
         font-size: 3rem;
-        height: 15vh;
+        height: 45vh;
     }
     #leaderboard .leaderboard
     {

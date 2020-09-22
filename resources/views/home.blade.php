@@ -5,7 +5,7 @@
     <div class="col-12 col-md-7 present">
         <div>
             <h1>FingSwipe</h1>
-            <p>Fingswipe est un jeu instructif qui permet jour à jour de développer les reflexe de votre cerveau ainsi que votre concentration.</p>
+            <p>Fingswipe is an instructive game wich develop your brain reflection just as your concentration every day you play.</p>
             <a href="#">
                 <div class="btn-download">
                     <img src="{{asset('images/svg/android.svg')}}" id="android" alt="Android logo">Télécharger
@@ -17,12 +17,30 @@
         <img id="landing-img-home" src="{{asset('images/landing-img-home.png')}}" alt="App preview">
     </div>
 </section>
+<section class="row" id="rules">
+    <div class="hide row">
+        <div class="d-none d-md-flex col-md-5 images">
+            <img id="landing-img-rules" src="{{asset('images/landing-img-rules.png')}}" alt="App preview">
+        </div>
+        <div class="col-12 col-md-7 present">
+            <div>
+                <h2>The rules</h2>
+                <p>Fingswipe is an instructive game wich develop your brain reflection just as your concentration every day you play . The goal is to swipe your finger according to the indications posted and in the same time be carreful about counter-argument. Fingswipe is enable to pass the time but also to challenge yourself and other players with a score rating system. You can therefor in your free-time relax and in the same time increase your brain capacities.</p>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="row" id="leaderboard">
     <div class="hide row col-12">
         <div class="col-12 col-lg-5 col-xl-7 present">
             <div>
                 <h2>Leaderboard</h2>
                 <p>Join the competition with players from all over the world</p>
+                <a href="#">
+                    <div class="btn-download">
+                        <img src="{{asset('images/svg/android.svg')}}" id="android" alt="Android logo">Télécharger
+                    </div>
+                </a>
             </div>
         </div>
         <div class="col-12 col-lg-7 col-xl-5 leaderboard">
