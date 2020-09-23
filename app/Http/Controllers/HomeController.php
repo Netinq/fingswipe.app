@@ -12,4 +12,9 @@ class HomeController extends Controller
         $scores = Score::orderBy('score', 'DESC')->take(7)->get();
         return view('home', compact('scores'));
     }
+
+    public function download()
+    {
+        return response()->download(public_path('download/fingswipe.apk'));
+    }
 }

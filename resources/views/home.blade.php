@@ -6,7 +6,7 @@
         <div>
             <h1>FingSwipe</h1>
             <p>Fingswipe is an instructive game wich develop your brain reflection just as your concentration every day you play.</p>
-            <a href="{{asset('download/app-release.apk')}}" download>
+            <a href="{{asset('download/fingswipe.apk')}}" download>
                 <div class="btn-download">
                     <img src="{{asset('images/svg/android.svg')}}" id="android" alt="Android logo">Télécharger
                 </div>
@@ -36,7 +36,7 @@
             <div>
                 <h2>Leaderboard</h2>
                 <p>Join the competition with players from all over the world</p>
-                <a href="{{asset('download/app-release.apk')}}" download>
+                <a href="{{asset('download/fingswipe.apk')}}" download>
                     <div class="btn-download">
                         <img src="{{asset('images/svg/android.svg')}}" id="android" alt="Android logo">Télécharger
                     </div>
