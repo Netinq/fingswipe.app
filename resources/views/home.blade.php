@@ -61,6 +61,11 @@
         </div>
     </div>
 </section>
+<section class="row" id="video">
+    <div class="col-10 offset-1 embed-responsive embed-responsive-16by9" style="height: auto">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/n2cPO3x5nak" allowfullscreen style="height: 90vh; "></iframe>
+    </div>
+</section>
 <script>
 
 $(document).ready(function () {
